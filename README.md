@@ -1,4 +1,3 @@
-# A collection of deprecated neural network defenses
 On this page I collect neural network defenses against adversarial examples, which have been proven to be at most as robust as a simple baseline (the corresponding undefended model or a random guessing), or not robust at all.
 Many defenses listed here were proposed, when there was not yet consent regarding how to thoroughly evaluate neural network defenses.
 By publishing [On Evaluating Adversarial Robustness](http://arxiv.org/abs/1902.06705) and [On Adaptive Attacks to Adversarial Example Defenses](https://arxiv.org/abs/2002.08347), Carlini et al. and Tramèr et al. gave suggestions on how to properly claim robustness of a newly developed neural network defense mechanism.
