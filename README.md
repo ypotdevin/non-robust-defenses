@@ -10,8 +10,10 @@ My goal by curating this collection is not at all to blame the authors of the li
 As mentioned above, the methodology of how to properly evaluate a defense had to develop over the past few years.
 Instead, my goals are to
 
-  1) urge practitioners not aware of the state of the art in the machine learning robustness research, to not blindly use the collected defense mechanism in their applications
-  2) gather in a single place ideas, which (in the way they were implemented) do not enhance robustness of neural networks
+  1. urge practitioners not aware of the state of the art in the machine learning robustness research, to not blindly use the collected defense mechanism in their applications
+  2. gather in a single place ideas, which (in the way they were implemented) do not enhance robustness of neural networks
+
+If you are instead looking for state of the art robust models, I refer you to the collections hosted at [Robust-ML](https://www.robust-ml.org/defenses/) and [RobustBench](https://robustbench.github.io/).
 
 ---
 
@@ -38,7 +40,7 @@ These are the sources I used to curate my collection:
 
 This is the actual collection of non-robust defenses:
 
-| **Defense**                                                                                                     | **Basic Despcription**                                                                                                  | **Author(s)**         | **Year** | **Attacker Publication**                                                                            | **Author(s)**        | **Year** |
+| **Defense**                                                                                                     | **Basic Description**                                                                                                  | **Author(s)**         | **Year** | **Attacker Publication**                                                                            | **Author(s)**        | **Year** |
 | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------- | -------- | --------------------------------------------------------------------------------------------------- | -------------------- | -------- |
 | [A Kernelized Manifold Mapping to Diminish the Effect of Adversarial Perturbations](https://arxiv.org/abs/1903.01015) |  | Taghanaki et al. | 2019 | [Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](http://proceedings.mlr.press/v119/croce20b.html) | Croce and Hein | 2020 |
 | [A New Defense Against Adversarial Images: Turning a Weakness into a Strength](https://arxiv.org/abs/1910.07629) | randomly perturbing input, checking if closest AE is further away than some threshold | Yu et al. | 2019 | [On Adaptive Attacks to Adversarial Example Defenses](https://proceedings.neurips.cc/paper/2020/hash/11f38f8ecd71867b42433548d1078e38-Abstract.html) | Tramer et al. | 2020 |
