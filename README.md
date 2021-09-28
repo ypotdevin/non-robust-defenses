@@ -6,7 +6,7 @@ A key suggestion was to adaptively attack the considered defense.
 An attacker model, which assumes the attacker to be oblivious to the protection mechanism in place, is merely enough to perform sanity checks, but not enough to make reliable claims regarding robustness.
 Therefore, when faced with an adaptive attacker, many proposed defenses turned out to be quite less robust than previously claimed.
 
-My goal by curating this collection is not at all to blame the authors of the listed defenses.
+My goal by curating this collection, is not at all to blame the authors of the listed defenses.
 As mentioned above, the methodology of how to properly evaluate a defense had to develop over the past few years.
 Instead, my goals are to
 
