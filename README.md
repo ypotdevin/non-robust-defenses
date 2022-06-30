@@ -34,12 +34,13 @@ These are the sources I used to curate my collection:
  * [Evading Adversarial Example Detection Defenses with Orthogonal Projected Gradient Descent](http://arxiv.org/abs/2106.15023), Bryniarski et al. 2021
  * [Indicators of Attack Failure: Debugging and Improving Optimization of Adversarial Examples](http://arxiv.org/abs/2106.09947), Pintor et al. 2021
  * [Demystifying the Adversarial Robustness of Random Transformation Defenses](https://openreview.net/forum?id=p4SrFydwO5), Sitawarin et al. 2021
+ * [Adversarial Vulnerability of Randomized Ensembles](https://arxiv.org/abs/2206.06737), Dbouk and Shanbhag 2022
  * [Robust-ML](https://www.robust-ml.org/defenses/)
  * [RobustBench](https://robustbench.github.io/)
 
 ---
 
-This is the actual collection of non-robust defenses:
+This is the actual collection of non-robust (or at least not as robust as claimed) defenses:
 
 | **Defense**                                                                                                     | **Basic Description**                                                                                                  | **Author(s)**         | **Year** | **Attacker Publication**                                                                            | **Author(s)**        | **Year** |
 | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------- | -------- | --------------------------------------------------------------------------------------------------- | -------------------- | -------- |
@@ -86,6 +87,7 @@ This is the actual collection of non-robust defenses:
 | [On the (Statistical) Detection of Adversarial Examples ](https://arxiv.org/abs/1702.06280) | adversarial retraining (»trash class«) | Grosse et al. | 2017 | [Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods ](https://dl.acm.org/doi/10.1145/3128572.3140444) | Carlini and Wagner | 2017 |
 | [On the (Statistical) Detection of Adversarial Examples ](https://arxiv.org/abs/1702.06280) | distributional detection (maximum mean discrepancy) | Grosse et al. | 2017 | [Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods ](https://dl.acm.org/doi/10.1145/3128572.3140444) | Carlini and Wagner | 2017 |
 | [PixelDefend: Leveraging Generative Models to Understand and Defend against Adversarial Examples](https://arxiv.org/abs/1710.10766) | PixelDefend (Use a generative model [PixelCNN] to project data back to the manifold) | Song et al. | 2017 | [Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples](https://arxiv.org/abs/1802.00423) | Athalye et al. | 2018 |
+| [Randomization matters How to defend against strong adversarial attacks](https://proceedings.mlr.press/v119/pinot20a.html) | Boosted Adversarial Training (BAT): Combine an adversarially trained network AT and a regular network trained on adversarial examples for AT | Pinot et al. | 2020 | [Adversarial Vulnerability of Randomized Ensembles](https://arxiv.org/abs/2206.06737) | Dbouk and Shanbhag | 2022 |
 | [Resisting Adversarial Attacks by k-Winners-Take-All](https://arxiv.org/abs/1905.10510v2) | Retraining, k-Winner-Take-All layers (instead of ReLU) | Xiao et al. | 2019 | [On Adaptive Attacks to Adversarial Example Defenses](https://proceedings.neurips.cc/paper/2020/hash/11f38f8ecd71867b42433548d1078e38-Abstract.html) | Tramèr et al. | 2020 |
 | [Rethinking Softmax Cross-Entropy Loss for Adversarial Robustness](https://arxiv.org/abs/1905.10626) | Training using MMC loss | Pang et al. | 2019 | [On Adaptive Attacks to Adversarial Example Defenses](https://proceedings.neurips.cc/paper/2020/hash/11f38f8ecd71867b42433548d1078e38-Abstract.html) | Tramèr et al. | 2020 |
 | [Robustness to Adversarial Examples through an Ensemble of Specialists](https://arxiv.org/abs/1702.06856) | Ensemble of classifiers operating on class subsets | Abbasi and Gagné | 2017 | [Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong](https://www.usenix.org/conference/woot17/workshop-program/presentation/he) | He et al. | 2017 |
